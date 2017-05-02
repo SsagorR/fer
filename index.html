@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Містер Макс і Курс Валют</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+		<video autoplay="autoplay" loop="loop" preload="auto" muted="muted">
+			<source src="video/video.mp4"></source>
+		</video>
+
+	<div class="dollar" id="dollar1">
+		<div class="rate-box">
+			<span class="rate">25,55</span> <br>
+			<span class="up"><i class="fa fa-long-arrow-up" aria-hidden="true"></i>0,03742</span><br>
+			<span class="rate-text">Гривень за долар(НБУ)</span>
+		</div>
+		<div class="rate-box">
+			<span class="rate">25,54</span> <br>
+			<span class="up"><i class="fa fa-long-arrow-up" aria-hidden="true"></i>0,02651</span><br>
+			<span class="rate-text">Гривень за долар(середній курс)</span>
+		</div>
+		<div class="rate-box">
+			<span class="rate">25,35</span> <br>
+			<span class="down"><i class="fa fa-long-arrow-down" aria-hidden="true"></i>0,02651</span><br>
+			<span class="rate-text">Гривень за долар(заявки фізосіб)</span>
+		</div>
+	</div>
+
+	<div class="euro" id="euro1">
+		<div class="rate-box">
+			<span class="rate">28,89</span> <br>
+			<span class="up"><i class="fa fa-long-arrow-up" aria-hidden="true"></i>0,07263</span><br>
+			<span class="rate-text">Гривень за євро(НБУ)</span>
+		</div>
+		<div class="rate-box">
+			<span class="rate">28,90</span> <br>
+			<span class="up"><i class="fa fa-long-arrow-up" aria-hidden="true"></i>0,07884</span><br>
+			<span class="rate-text">Гривень за євро(середній курс)</span>
+		</div>
+		<div class="rate-box">
+			<span class="rate">28,74</span> <br>
+			<span class="down"><i class="fa fa-long-arrow-down" aria-hidden="true"></i>0,26740</span><br>
+			<span class="rate-text">Гривень за євро(заявки фізосіб)</span>
+		</div>
+	</div>
+
+	<div class="pound" id="pound1">
+		<div class="rate-box">
+			<span class="rate">34,22</span> <br>
+			<span class="down"><i class="fa fa-long-arrow-down" aria-hidden="true"></i>0,10915</span><br>
+			<span class="rate-text">Гривень за фунт(НБУ)</span>
+		</div>
+		<div class="rate-box">
+			<span class="rate">34,41</span> <br>
+			<span class="down"><i class="fa fa-long-arrow-down" aria-hidden="true"></i>0,02407</span><br>
+			<span class="rate-text">Гривень за фунт(середній курс)</span>
+		</div>
+		<div class="rate-box">
+			<span class="rate">34,39</span> <br>
+			<span class="down"><i class="fa fa-long-arrow-down" aria-hidden="true"></i>0,01907</span><br>
+			<span class="rate-text">Гривень за фунт(заявки фізосіб)</span>
+		</div>
+	</div>
+
+	<div class="rubl" id="rubl1">
+		<div class="rate-box">
+			<span class="rate">0,47</span> <br>
+			<span class="up"><i class="fa fa-long-arrow-down" aria-hidden="true"></i>0,10915</span><br>
+			<span class="rate-text">Гривень за рубль(НБУ)</span>
+		</div>
+		<div class="rate-box">
+			<span class="rate">0,47</span> <br>
+			<span class="up"><i class="fa fa-long-arrow-down" aria-hidden="true"></i>0,02407</span><br>
+			<span class="rate-text">Гривень за рубль(середній курс)</span>
+		</div>
+		<div class="rate-box">
+			<span class="rate">0,45</span> <br>
+			<span class="down"><i class="fa fa-long-arrow-down" aria-hidden="true"></i>0,01907</span><br>
+			<span class="rate-text">Гривень за рубль(заявки фізосіб)</span>
+		</div>
+	</div>
+	
+	<ul class="exchange">
+		<li class="dollar-icon" id="dollar"> <i class="fa fa-usd" aria-hidden="true"></i> </li>
+		<li class="euro-icon" id="euro"> <i class="fa fa-eur" aria-hidden="true"></i> </li>
+		<li class="pound-icon" id="pound"> <i class="fa fa-gbp" aria-hidden="true"></i> </li>
+		<li class="rubl-icon" id="rubl"> <i class="fa fa-rub" aria-hidden="true"></i> </li>
+	</ul>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

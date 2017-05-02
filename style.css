@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+video {
+	z-index: -100;
+	position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.exchange {
+	list-style-type: none;
+	z-index: 1;
+	text-align: center;
+}
+
+.exchange li {
+	display: inline;
+	margin-right: 0.3em;
+	font-size: 3em;
+}
+
+.euro, .pound, .rubl {
+	display: none;
+}
+
+.dollar-icon, .euro-icon, .pound-icon, .rubl-icon {
+	text-shadow: 0 0 5px white;
+} 
+
+.dollar, .euro, .pound, .rubl {
+	height: 30em;
+}
+
+.rate {
+	font-family: Helvetica;
+	font-size: 7em;
+	color: white;
+	text-shadow: 5px 5px 10px black;
+}
+
+.rate-box {
+	color: white;
+	position: relative;
+	top: 10em;
+	margin: 0 4em 0 5em;
+	text-align: center;
+	display: inline-block;
+}
+
+.rate-text {
+	font-size: 1.3em;
+}
+
+.up {
+	color: #C9DF8A;
+}
+
+.down {
+	color: #F17333;
+}
+
+#dollar {
+	color: rgb(230, 230, 230);
+}
+
+#dollar1, #euro1, #pound1, #rubl1 {
+	text-align: center;
+}
+
+@media (min-width: 1400px) {
+	.exchange {
+		font-size: 3.5em;
+	}
+}
